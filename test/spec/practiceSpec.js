@@ -103,34 +103,8 @@ describe("Closures and Classes in JavaScript Mini Project", function () {
 			expect(rav4.displayYear()).toEqual(2020);
         });
     });
-    
-	describe("Problem 6 - larry, moe and curly", function () {
-        it("larry, moe and curly exist", function () {
-            expect(larry).toBeDefined();
-			expect(moe).toBeDefined();
-			expect(curly).toBeDefined();
-        });
-		it("Puppy class sets all properties for larry correctly", function () {
-            expect(new Puppy()).toBeDefined();
-            expect(larry.happiness).toEqual(larry.happiness);
-            expect(larry.energy).toEqual(larry.energy);
-            expect(larry.behavior).toEqual(larry.behavior);
-        });
-		it("Puppy class sets all properties for moe correctly", function () {
-            expect(new Puppy()).toBeDefined();
-            expect(moe.happiness).toEqual(moe.happiness);
-            expect(moe.energy).toEqual(moe.energy);
-            expect(moe.behavior).toEqual(moe.behavior);
-        });
-		it("Puppy class sets all properties for curly correctly", function () {
-            expect(new Puppy()).toBeDefined();
-            expect(curly.happiness).toEqual(curly.happiness);
-            expect(curly.energy).toEqual(curly.energy);
-            expect(curly.behavior).toEqual(curly.behavior);
-        });
-    });
 
-    describe("Problem 7 - Panda", function () {
+    describe("Problem 6 - Panda", function () {
         it("class should exist", function () {
             expect(new Panda()).toBeDefined();
         });
